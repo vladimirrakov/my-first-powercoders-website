@@ -26,6 +26,11 @@ img {
     margin-bottom: 10px;
 }
 
+.project_image:hover {
+    width: 305px;
+    border: 5px solid #0b0055;
+}
+
 .col {
     align-items: center;
 }
