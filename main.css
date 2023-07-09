@@ -3,8 +3,15 @@ h1 {
     margin-bottom: 20px;
 }
 
-img {
+.front_page_image {
     margin: 0 20px 20px 0;
+}
+
+.contact_page_image {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-bottom: 10px;
 }
 
 .activity_section {
