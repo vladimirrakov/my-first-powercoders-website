@@ -4,7 +4,7 @@ h1 {
 }
 
 img {
-    margin: 0 20px 0 0;
+    margin: 0 20px 20px 0;
 }
 
 .activity_section {
@@ -23,7 +23,7 @@ img {
 
 .project_image {
     width: 300px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .project_image:hover {
@@ -41,11 +41,11 @@ img {
 }
 
 .blog_entry_image {
-    width: 500px;
+    width: 300px;
     margin-bottom: 10px;
 }
 
 .blog_entry_image:hover {
-    width: 505px;
+    width: 305px;
     border: 5px solid blue;
 }
