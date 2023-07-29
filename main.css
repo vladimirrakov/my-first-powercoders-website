@@ -20,6 +20,7 @@ h1 {
 
 .front_page_image {
     margin: 0 20px 20px 0;
+    border-radius: 20px;
 }
 
 .contact_page_image {
