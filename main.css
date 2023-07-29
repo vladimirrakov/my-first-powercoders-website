@@ -8,6 +8,16 @@ h1 {
 	margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+    #container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+}
+
 .front_page_image {
     margin: 0 20px 20px 0;
 }
