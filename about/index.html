@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <title>About me - Web Portfolio of Vladimir Rakov</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/main.css">
-  <title>About me - Web Portfolio of Vladimir Rakov</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li><a class="nav-link" href="/">Home</a></li>
+            <li><a class="nav-link" href="/blog/">Blog</a></li>
+            <li><a class="nav-link" href="/projects/">Projects</a></li>
+            <li><a class="nav-link active" href="/about/">About me</a></li>
+            <li><a class="nav-link" href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav">
-          <li><a class="nav-link" href="/">Home</a></li>
-          <li><a class="nav-link" href="/blog/">Blog</a></li>
-          <li><a class="nav-link" href="/projects/">Projects</a></li>
-          <li><a class="nav-link active" href="/about/">About me</a></li>
-          <li><a class="nav-link" href="/contact/">Contact</a></li>
-        </ul>
+      <div id="container">
+        <h1 class="text-center">Personal conversation</h1>
+        <p>
+          Let me tell a bit more and introduce myself personally. The
+          presentation below will give you an idea of various projects and
+          fields of competence I have come across before I stepped onto the
+          coding learning path.
+        </p>
+      </div>
+      <div class="google-slides-container">
+        <iframe
+          src="https://docs.google.com/presentation/d/e/2PACX-1vT-gQ2lOe5yb_wlZNw6oh2YBDSwBxFL5jAUbNW06HSa6nu6ek80gQWf0yzIx9_BWQ/embed?start=true&loop=false&delayms=10000"
+          frameborder="0"
+          width="1058"
+          height="823"
+          allowfullscreen="true"
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+        ></iframe>
       </div>
     </div>
-  </nav>
-  <div class="container">
-    <h1 class="text-center">Personal conversation</h1>
-          <p>Let me tell a bit more and introduce myself personally. The presentation below
-            will give you an idea of various projects and fields of competence I have come across
-            before I stepped onto the coding learning path.
-          </p>
-    <div class="google-slides-container">
-      <iframe
-        src="https://docs.google.com/presentation/d/e/2PACX-1vT-gQ2lOe5yb_wlZNw6oh2YBDSwBxFL5jAUbNW06HSa6nu6ek80gQWf0yzIx9_BWQ/embed?start=true&loop=false&delayms=10000"
-        frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true"
-        webkitallowfullscreen="true"></iframe>
-    </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
 </html>
