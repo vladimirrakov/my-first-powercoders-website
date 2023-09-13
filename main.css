@@ -25,11 +25,15 @@ h1 {
 
 @media screen and (max-width: 768px) {
     #container {
-        width: 90%;
+        width: 80%;
     }
 
     h1 {
         font-size: 200%;
+    }
+
+    .quote_block {
+        width: 80%;
     }
 }
 
