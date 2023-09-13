@@ -5,7 +5,7 @@ h1 {
 
 .quote_block {
     width: 60%;
-    padding: 25px 10px 5px 40px;
+    padding: 20px 30px 0 30px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 25px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 .quote {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     line-height: 1;
 }
