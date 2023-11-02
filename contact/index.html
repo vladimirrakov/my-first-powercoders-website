@@ -1,55 +1,181 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Contact - Web Portfolio of Vladimir Rakov</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/main.css" />
-  <title>Contact - Web Portfolio of Vladimir Rakov</title>
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li><a class="nav-link" href="/">Home</a></li>
+            <li><a class="nav-link" href="/blog/">Blog</a></li>
+            <li><a class="nav-link" href="/projects/">Projects</a></li>
+            <li><a class="nav-link" href="/about/">About me</a></li>
+            <li><a class="nav-link active" href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="container">
+      <h1 class="title">Contact</h1>
+      <p>
+        You can contact me by email:
+        <a href="mailto:vlad.coding.365@gmail.com">vlad.coding.365@gmail.com</a
+        ><br />
+        Follow me on
+        <a href="https://twitter.com/vlad_coding_365" target="_blank"
+          >Twitter</a
+        >
+        or
+        <a href="https://github.com/vladimirrakov" target="_blank">GitHub</a>
+      </p>
+      <img
+        src="/images/vladimirrakov.jpg"
+        alt="Picture of me"
+        class="contact_page_image"
+      />
+      <h3>Vladimir Rakov</h3>
+      <p>
+        Learning web-development at
+        <a href="https://t.co/Iar14aa2RF" target="_blank"
+          >PowerCoders Bootcamp 💻</a
+        ><br />
+        <br />
+        Born in Kyrgyzstan<br />
+        Lived in Ukraine<br />
+        Based in Bern, Switzerland
+      </p>
+    </div>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav">
-          <li><a class="nav-link" href="/">Home</a></li>
-          <li><a class="nav-link" href="/blog/">Blog</a></li>
-          <li><a class="nav-link" href="/projects/">Projects</a></li>
-          <li><a class="nav-link" href="/about/">About me</a></li>
-          <li><a class="nav-link active" href="/contact/">Contact</a></li>
-        </ul>
+    <!-- Contact form 👉 https://web3forms.com/ -->
+    <div class="flex items-center min-h-screen bg-gray-900">
+      <div class="container mx-auto">
+        <div
+          class="max-w-md mx-auto my-10 bg-gray-800 p-5 rounded-md shadow-sm"
+        >
+          <div class="text-center">
+            <h1 class="my-3 text-3xl font-semibold text-gray-100">
+              Contact Us
+            </h1>
+            <p class="text-gray-400 dark:text-gray-400">
+              Fill up the form below to send us a message.
+            </p>
+          </div>
+          <div class="m-7">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              id="form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="4975f4c9-edf4-406d-ba64-9a88bef01b33"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Submission from Web3Forms"
+              />
+              <input
+                type="checkbox"
+                name="botcheck"
+                id=""
+                style="display: none"
+              />
+
+              <div class="mb-6">
+                <label for="name" class="block mb-2 text-sm text-gray-400"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Doe"
+                  required
+                  class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none"
+                />
+              </div>
+              <div class="mb-6">
+                <label for="email" class="block mb-2 text-sm text-gray-400"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="you@company.com"
+                  required
+                  class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none"
+                />
+              </div>
+              <div class="mb-6">
+                <label for="phone" class="block mb-2 text-sm text-gray-400"
+                  >Phone Number</label
+                >
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+1 (555) 1234-567"
+                  required
+                  class="w-full px-3 py-2 h-12 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none"
+                />
+              </div>
+              <div class="mb-6">
+                <label for="message" class="block mb-2 text-sm text-gray-400"
+                  >Your Message</label
+                >
+
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                  class="w-full px-3 py-2 rounded-sm placeholder-gray-500 text-gray-900 bg-gray-100 text-sm focus:outline-none"
+                  required
+                ></textarea>
+              </div>
+              <div class="mb-6">
+                <button
+                  type="submit"
+                  class="w-full bg-indigo-600 inline-block text-white no-underline hover:text-indigo-100 py-4 px-4 rounded-sm focus:outline-none"
+                >
+                  Send Message
+                </button>
+              </div>
+              <p class="text-base text-center text-gray-400" id="result"></p>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-  <div id="container">
-    <h1 class="title">Contact</h1>
-    <p>
-      You can contact me by email:
-      <a href="mailto:vlad.coding.365@gmail.com">vlad.coding.365@gmail.com</a><br />
-      Follow me on
-      <a href="https://twitter.com/vlad_coding_365" target="_blank">Twitter</a>
-      or
-      <a href="https://github.com/vladimirrakov" target="_blank">GitHub</a>
-    </p>
-    <img src="/images/vladimirrakov.jpg" alt="Picture of me" class="contact_page_image" />
-    <h3>Vladimir Rakov</h3>
-    <p>
-      Learning web-development at
-      <a href="https://t.co/Iar14aa2RF" target="_blank">PowerCoders Bootcamp 💻</a><br />
-      <br />
-      Born in Kyrgyzstan<br />
-      Lived in Ukraine<br />
-      Based in Bern, Switzerland
-    </p>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-</body>
 
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
 </html>
